@@ -1,0 +1,36 @@
+@HOTEL
+5
+2101 Cresent St
+50-100$
+Downtown
+@HOTEL
+1
+23 Church St
+Under 50$
+Montreal East
+@HOTEL
+2
+5674 Sherbrooke St
+Under 50$
+Montreal West
+@HOTEL
+1
+7000 St-Catherine St
+Above 100$
+Downtown
+@HOTEL
+4
+2101 Montreal-Toronto Blvd
+50-100$
+Close to the airport
+@HOTEL
+2
+2101 St-Jacques St
+50-100$
+Old Port
+@HOTEL
+3
+2133 Maisoneeve St
+50-100$
+Downtown
+

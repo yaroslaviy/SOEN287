@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Question 4</title>
+	<style>
+		body {background-color: #ccffdc;}
+		.Label1 {font-weight: bold; color: #99bbff;}
+		.Label2 {font-weight: bold; color: #ffbb99;}
+		#first {border-color: #80aaff; background-color: #ffffcc;}
+		#second {border-color: #ff7733; background-color: #ccf5ff;}
+		#l1 {color: #80aaff;}
+		#l2 {color: #ff7733;}
+		#ExpSug { visibility: hidden; }
+	</style>
+	<script src="../../../Documents/School/SOEN%20287/a3_40068605/q5/q5.js"></script>
+	<table>
+		<tr>
+			<td>
+				<a href="https://peterviney.files.wordpress.com/2014/03/grand-budapest-hotel.png">
+					<img src="https://peterviney.files.wordpress.com/2014/03/grand-budapest-hotel.png" alt="Hotel Grand Budapest" width="200">
+				</a>
+			</td>
+			<td>
+				<h1>Hotel Reservation Form</h1>
+			</td>
+		</tr>
+	</table>
+<form>
+	<fieldset id="first">
+		<legend id=l1>Reservation Information</legend>
+		<label class="Label1">Number of rooms(max 5 people per room): <input type="text" name="NumOfRooms"> </label> <br/>
+		<label class="Label1">Smoker? </label>
+		<label><input type="radio" name="Smoker"> Yes </label>
+		<label><input type="radio" name="Smoker"> No</label> <br>
+		<label class="Label1">Check-in: <input type="date" name="in_date"></label><br>
+		<label class="Label1">Check-out: <input type="date" name="out_date"></label>
+	</fieldset>
+	<fieldset id="second">
+		<legend id="l2">Room Specifications</legend>
+		<ul>
+			<li>	
+				<label class="Label2">Number of single/double beds:</label><br>
+				<label><input type="checkbox" name="beds"> 0/2</label>
+				<label><input type="checkbox" name="beds"> 2/0</label>
+				<label><input type="checkbox" name="beds"> 1/1</label>
+				<label><input type="checkbox" name="beds"> 1/2</label>
+				<label><input type="checkbox" name="beds"> 2/1</label>
+			</li>
+			<li>
+				<label class="Label2">Do you have preferred locations for the hotel?</label><br>
+				<label><input type="checkbox" name="location">Downtown</label>
+				<label><input type="checkbox" name="location">Montreal East</label>
+				<label><input type="checkbox" name="location">Montreal West</label>
+				<label><input type="checkbox" name="location">Close to the airport</label>
+				<label><input type="checkbox" name="location">Oldport</label>
+				<label><input type="checkbox" name="location">Don't care</label>
+			</li>
+			<li>
+				<label class="Label2">Price per night:</label><br>
+				<select name="price">
+					<option value="<50">&lt;50$</option>
+					<option value="50-100">50-100$</option>
+					<option value=">100">&GT;100$</option>
+				</select>
+			</li>
+			<li>
+				<label class="Label2">Number of Parking spots:</label><br>
+				<label><input type="radio" name="Parking">0</label><br>
+				<label><input type="radio" name="Parking">1 </label><br>
+				<label><input type="radio" name="Parking">2 </label><br>
+				<label><input type="radio" name="Parking">3 </label><br>
+				<label><input type="radio" name="Parking">4 </label><br>
+			</li>
+			<li>
+				<label class="Label2">Special Facilities</label><br>
+				<label><input type="checkbox" name="Special">Minibar</label>
+				<label><input type="checkbox" name="Special">Balcony</label>
+				<label><input type="checkbox" name="Special">Pool</label>
+				<label><input type="checkbox" name="Special">Water Front</label>
+				<label><input type="checkbox" name="Special">Garden Front</label>
+			</li>
+		</ul>
+	</fieldset>
+	<fieldset id="ExpSug">
+		<legend>Expert Suggestion</legend>
+	</fieldset>
+	<p>Let's see what we cand find for you...</p>
+	<input type="button" value="Search" name="Search" onclick="ExpertSuggestion()">
+	<input type="reset" name="Start Over">
+</form>
+</html>

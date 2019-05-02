@@ -1,0 +1,60 @@
+h1{
+    text-align: center;
+}
+body {background-color: #ccffdc;}
+.Label1 {font-weight: bold; color: #99bbff;}
+.Label2 {font-weight: bold; color: #ffbb99;}
+#first {border-color: #80aaff; background-color: #ffffcc;}
+#second {border-color: #ff7733; background-color: #ccf5ff;}
+#l1 {color: #80aaff;}
+#l2 {color: #ff7733;}
+#ExpSug { visibility: hidden; }
+div {
+    alignment: center;
+    background: #ffbb99;
+    color: #365bb9;
+    width: 95%;
+    border: 10px solid #4bc8ff;
+    border-radius: 25px;
+    padding: 15px;
+    padding-left: 30px;
+    margin: 15px;
+}
+#center{
+    text-align: center;
+    font-size: 70px;
+}
+img { display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400;
+}
+
+#results {
+    margin: auto;
+    font-size: 20px;
+    border: solid 1px;
+    width: 700px;
+    background-color: #fff9c2;
+}
+
+.content {
+    color: #000;
+    font-size: large;
+    font-family: Calibri;
+}
+
+.success {
+    background-color: #5bff72;
+    outline: thin black;
+    width: 300px;
+}
+
+.warning{
+    color: red;
+    font-weight: bold;
+}
+.welcome{
+    font-weight: bold;
+    color: #000;
+}
